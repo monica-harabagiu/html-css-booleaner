@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(78 160 255);
+    background-image: url("../img/pattern.png");
+    height: 180px;
+    position: relative;
+}
+
+header img {
+    position: absolute;
+    bottom: 0;
+}
+
+main {
+    margin: 10px;
+}
+
+h4 {
+    color: rgb(165, 165, 165);
+    font-weight: normal;
+}
+
+h5 {
+    color: rgb(165, 165, 165);
+    font-weight: normal;
+}
+
+.blu-text {
+    color: rgb(78 160 255);
+}
+
+.main-photos {
+    margin-top: 20px;
+}
+
+.main-photos p {
+    font-size: small;
+}
+
+.first-paragraph {
+    margin-top: 20px;
+}
+
+.first-paragraph ul {
+    margin-left: 1em;
+    margin-top: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+thead {
+    background-color: rgb(33, 169, 229);
+    color: white;
+}
+
+th {
+    text-align: left;
+}
+
+.odd-background {
+    background-color: rgb(177	229	242	);
+}
