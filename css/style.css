@@ -7,13 +7,15 @@
 header {
     background-color: rgb(78 160 255);
     background-image: url("../img/pattern.png");
-    height: 180px;
-    position: relative;
+    background-size: 30%;
+    padding-top: 30px;
+    /* height: 180px; CORREZIONE LEZIONE
+    position: relative; */
 }
 
 header img {
-    position: absolute;
-    bottom: 0;
+    /* position: absolute;
+    /* bottom: 0; CORREZIONE A LEZIONE */ 
     margin: 10px;
 }
 
@@ -78,11 +80,17 @@ section {
     margin-top: 30px;
 }
 
+.last-paragraph {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .other-articles {
     width: 250px;
     height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     color: white;
     font-weight: 600;
     font-size: 23px;
